@@ -1,0 +1,42 @@
+<div class="col-6 col-2"  style="float: left; padding-left: 70px; padding-top: 30px;">
+    <div id="formContent">
+     
+      <div class="fadeIn first">
+        <img src="assets/f.png" style="width: 120px; height: 120px; " id="icon" alt="FEED-BACK" />
+        <h4><a style="color: rgb(146, 146, 233);">FeedBack</a></h4>
+      </div>
+  
+     
+      <form  #myform = "ngForm" (ngSubmit) = "showForm(myform)" class="feedback">
+        <input type="text" id="login" class="fadeIn first" name="login" placeholder="email Id" ngModel>
+        <input type="text" id="Full Name" class="fadeIn second" name="Full Name" placeholder="Full Name" ngModel>
+        <input type="text" id="feedback" class="fadeIn third" name="login" placeholder="feedback" ngModel>
+        <input type="submit" class="fadeIn fourth" value="Submit">
+      </form>
+  
+  
+    </div>
+  </div>
+
+
+  <div class="col-6 col-2" style="float: right; padding-bottom: 120px; padding-top: 30px;" >
+    <div id="formContent">
+     
+      <div class="fadeIn first">
+        <img src="assets/appoint.png" style="width: 120px; height: 120px; " id="icon" alt="FEED-BACK" />
+        <h4><a style="color: rgb(146, 146, 233);">Book An Appointment</a></h4>
+      </div>
+     
+      <form class="feedback" #form2="ngForm" (ngSubmit)="showForm(form2)">
+        <input type="text" id="Frst Name" class="fadeIn first" name="First Name" placeholder="First Name" ngModel>
+        <input type="text" id="Last Name" class="fadeIn second" name="Last Name" placeholder="Last Name" ngModel>
+        <input type="text" id="Contact No" class="fadeIn second" name="Contact No" placeholder="Contact No" ngModel>
+        <input type="text" id="Date" class="fadeIn second" name="Date" placeholder="Date" ngModel>
+        <input type="text" id="feedback" class="fadeIn third" name="login" placeholder="feedback"ngModel>
+       
+        <input type="submit" class="fadeIn fourth" value="Submit">
+      </form>
+  
+  
+    </div>
+  </div>
