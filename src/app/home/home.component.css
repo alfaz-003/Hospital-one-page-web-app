@@ -155,7 +155,7 @@ padding-top: 20px;
 
 #grad1 {
   background-color: red;
-  background-image: linear-gradient(180deg, rgb(143, 240, 134), rgb(245, 245, 92));
+  background-image: linear-gradient(180deg, rgb(79, 149, 241), rgb(245, 245, 245));
   font-family: 'Pacifico';
 }
 
@@ -164,7 +164,7 @@ padding-top: 20px;
 }
 
 #grad1:hover{
-  background-image: linear-gradient(180deg, rgb(103, 241, 90), rgb(252, 252, 17));
+  background-image: linear-gradient(180deg, rgb(251, 252, 250), rgb(79, 149, 241));
   border: 2px black;
  
 }
